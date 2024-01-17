@@ -13,7 +13,9 @@ const Home =()=>{
         );
     };
     useEffect(()=>{
-        notify()
+        setInterval(()=>{
+            notify()
+        },1000)
     },[])
 return (
     <div>

@@ -23,7 +23,7 @@ function App() {
               navbarScroll
             >
               <Nav.Link >
-                <Link to="/">Home</Link>
+                <Link to="/pwa-app">Home</Link>
               </Nav.Link>
               <Nav.Link ><Link to="/about">About</Link>
               </Nav.Link>
@@ -69,7 +69,7 @@ function App() {
       />
 
       <Routes>
-        <Route path='/' Component={Home} />
+        <Route path='/pwa-app' Component={Home} />
         <Route path='/about' Component={About} />
       </Routes>
     </div>
